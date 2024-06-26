@@ -35,8 +35,8 @@ The output is a structured JSON blob that pairs each question with its correspon
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/saifk6717/Zania_Assignment.git
+    cd Zania_Assignment
     ```
 
 2. Create and activate a virtual environment (optional but recommended):
@@ -69,14 +69,14 @@ The output is a structured JSON blob that pairs each question with its correspon
 ## Code Structure
 
 - **config.py**: Loads API keys and tokens from environment variables.
-- **pdf_parser.py**: Contains functions for extracting text from PDF and splitting it into chunks.
-- **openai_api.py**: Contains function to get answers from OpenAI GPT-3.5-turbo.
-- **slack_notifier.py**: Contains functions to post messages to Slack.
-- **main.py**: The main script that handles user interaction and processes questions.
+- **pdf_extractor.py**: Contains functions for extracting text from PDF and splitting it into chunks.
+- **question_answering.py**: Contains function to get answers from OpenAI GPT-3.5-turbo.
+- **slack_client.py**: Contains functions to post messages to Slack.
+- **app.py**: The main script that handles user interaction and processes questions.
 
 ## Example Workflow
 
-- Start the script with `python main.py`.
+- Start the script with `python app.py`.
 - Enter a question when prompted.
 - Review the answer printed in the console.
 - Decide whether to post the answer to Slack.
