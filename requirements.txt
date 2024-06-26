@@ -1,0 +1,5 @@
+openai
+slack_sdk
+PyPDF2
+nltk
+
